@@ -1,6 +1,7 @@
 import Game from '../classes/Games';
+import RemoveGameButton from './RemoveGameButton';
 
-const GameTable = ({games}:{games:Game[]}) => {
+const GameTable = ({games, setGames}:{games:Game[], setGames:React.Dispatch<React.SetStateAction<Game[]>>}) => {
     return (
         <div>
             <table>
@@ -26,6 +27,7 @@ const GameTable = ({games}:{games:Game[]}) => {
                     <td>{game.publisher}</td>
                     <td>{game.release_date}</td>
                     <td>{game.platform}</td>
+                    <td><RemoveGameButton gameId={game.id} games={games} setGames={setGames} /></td>
                 </tr>
                 </tbody>    
             );

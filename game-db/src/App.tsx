@@ -4,7 +4,6 @@ import Games from './classes/Games';
 import AddGameForm from './components/AddGameForm';
 import GameTable from './components/GameTable'
 
-
 function App() {
   
   const [games, setGames] = useState<Games[]>([]);
@@ -21,7 +20,7 @@ function App() {
 
   return (
     <div>
-      <GameTable games={games} />
+      <GameTable games={games} setGames={setGames} />
       <AddGameForm games={games} setGames={setGames} />
     </div>
   )

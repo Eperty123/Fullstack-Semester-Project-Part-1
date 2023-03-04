@@ -32,7 +32,7 @@ const AddGameForm = ({games, setGames}:{games:Game[], setGames:React.Dispatch<Re
                 <input type="number" placeholder="Price" onChange={handleChange} value={input.price} name="price"></input>
                 <input type="text" placeholder="Developer" onChange={handleChange} value={input.developer} name="developer"></input>
                 <input type="text" placeholder="Publisher" onChange={handleChange} value={input.publisher} name="publisher"></input>
-                <input type="text" placeholder="Release_date" onChange={handleChange} value={input.release_date} name="release_date"></input>
+                <input type="text" placeholder="Release date" onChange={handleChange} value={input.release_date} name="release_date"></input>
                 <input type="text" placeholder="Platform" onChange={handleChange} value={input.platform} name="platform"></input>
             </form>
             <button onClick={handleClick}>

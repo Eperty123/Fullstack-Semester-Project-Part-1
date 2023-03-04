@@ -93,15 +93,14 @@
     },
     {
       "id": 8,
-      "name": "Test",
-      "price": 0,
+      "name": "Bob",
+      "price": "2",
       "developer": "Test",
       "publisher": "Test",
-      "release_date": "Test",
+      "release_date": "23-03-2022",
       "platform": [
-        "Test,",
-        "Test,",
-        "Test"
+        "Windows,",
+        "macos"
       ]
     }
   ]
