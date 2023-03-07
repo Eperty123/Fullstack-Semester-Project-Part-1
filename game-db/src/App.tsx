@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import './App.css'
+import './css/App.css'
 import Games from './classes/Games';
 import AddGameForm from './components/AddGameForm';
 import GameTable from './components/GameTable'
@@ -19,9 +19,11 @@ function App() {
   },[])
 
   return (
-    <div>
-      <GameTable games={games} setGames={setGames} />
-      <AddGameForm games={games} setGames={setGames} />
+    <div className="container-fluid">
+      <div className="row">
+        <GameTable games={games} setGames={setGames} />
+        <AddGameForm games={games} setGames={setGames} />
+      </div>
     </div>
   )
 }

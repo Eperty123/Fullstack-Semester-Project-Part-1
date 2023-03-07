@@ -1,10 +1,14 @@
 import Game from '../classes/Games';
 import RemoveGameButton from './RemoveGameButton';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const GameTable = ({games, setGames}:{games:Game[], setGames:React.Dispatch<React.SetStateAction<Game[]>>}) => {
     return (
         <div>
-            <table>
+            <h1 className="text-center">Games</h1>
+            
+            <table className="table">
                 <thead>
                 <tr>
                     <th>Id</th>

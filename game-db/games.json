@@ -77,31 +77,6 @@
         "linux, ",
         "macos"
       ]
-    },
-    {
-      "id": 7,
-      "name": "Test",
-      "price": 0,
-      "developer": "Test",
-      "publisher": "Test",
-      "release_date": "Test",
-      "platform": [
-        "Test",
-        " Test",
-        " Test"
-      ]
-    },
-    {
-      "id": 8,
-      "name": "Bob",
-      "price": "2",
-      "developer": "Test",
-      "publisher": "Test",
-      "release_date": "23-03-2022",
-      "platform": [
-        "Windows,",
-        "macos"
-      ]
     }
   ]
 }
